@@ -85,6 +85,7 @@ void ReportBatch::FlushWithLock() {
         compressor_.ShrinkGlobalDictionary();
       }
     }
+    GOOGLE_LOG(INFO) << "Edited by Nadun"
   });
 }
 
